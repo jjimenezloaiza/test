@@ -1,0 +1,32 @@
+parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .image1 {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    background-image: url(images/Background\ img.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    overflow: scroll;
+    
+    
+  }
+  
+  .image2 {
+    position:sticky;
+    background-image: url(images/Logo.jpg) center;
+    filter: brightness(1.1) contrast(200%);
+    mix-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    border-radius: 40%;
+    display: block;
+    margin: auto;
+    max-width: 20%;
+    height: auto;
+  }
